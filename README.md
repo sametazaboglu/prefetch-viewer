@@ -17,8 +17,8 @@ This script is intended for research purposes only. The author is not responsibl
 
 1. Clone the repository:
 ```bash
-$ git clone https://github.com/secwe/win-prefetch-viewer.git
-$ cd win-prefetch-viewer
+$ git clone https://github.com/sametazaboglu/prefetch-viewer.git
+$ cd prefetch-viewer
 ```
 
 2. Change the output folder location in the `main.py` script:
