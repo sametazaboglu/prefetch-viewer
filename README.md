@@ -1,6 +1,6 @@
 # Windows Prefetch File Decompressor
 
-This tool is designed to decompress Windows Prefetch files. Prefetch files are used by Windows to speed up the boot process. These files are compressed using the `RtlCompressBufferEx` function from the `ntdll.dll` library.
+Windows Prefetch File Decompressor is a tool designed to decompress Windows Prefetch files, which are utilized by the operating system to optimize application launch times. These files are compressed using the `RtlCompressBufferEx` function from the `ntdll.dll` library.
 
 This script utilizes the `RtlDecompressBufferEx` function from the same library to decompress the Prefetch files. It takes two arguments: the input Prefetch file and the output file. The script reads the input Prefetch file, decompresses it, and writes the decompressed data to the output file.
 
